@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright © 2015 Fm-Web
+  Contacts: http://fm-web.uz
+  Recouse
+-->
+<bbcodeexport>
+  <bbcodegroup>
+    <bbcode>
+      <bbcode_id>36</bbcode_id>
+      <bbcode_title>Webmoney BL</bbcode_title>
+      <bbcode_desc>Данный бб код покажет индикатор вашего BL</bbcode_desc>
+      <bbcode_tag>blevel</bbcode_tag>
+      <bbcode_replace><![CDATA[<div style="padding:5px 10px 7px;width: 35px;border:1px solid #e3e3e3;display:inline;">BL &nbsp;<a href="http://passport.webmoney.ru/asp/certview.asp?wmid={option}" target="_blank" data-tooltip="Посмотреть информацию"><img src="http://stats.wmtransfer.com/Levels/pWMIDLevel.aspx?wmid={option}&w=35&h=18&bg=0XDBE2E9" /></a></div>]]></bbcode_replace>
+      <bbcode_useoption>1</bbcode_useoption>
+      <bbcode_example><![CDATA[[blevel={WMID}] - где {WMID} это ваш WMID в системе Webmoney]]></bbcode_example>
+      <bbcode_switch_option>0</bbcode_switch_option>
+      <bbcode_menu_option_text>Введите ваш WMID</bbcode_menu_option_text>
+      <bbcode_menu_content_text/>
+      <bbcode_single_tag>1</bbcode_single_tag>
+      <bbcode_groups>all</bbcode_groups>
+      <bbcode_sections>all</bbcode_sections>
+      <bbcode_php_plugin/>
+      <bbcode_no_parsing>1</bbcode_no_parsing>
+      <bbcode_protected>0</bbcode_protected>
+      <bbcode_aliases>bl,buslevel,buisnesslevel</bbcode_aliases>
+      <bbcode_optional_option>1</bbcode_optional_option>
+      <bbcode_image/>
+      <bbcode_app>core</bbcode_app>
+      <bbcode_custom_regex/>
+    </bbcode>
+  </bbcodegroup>
+</bbcodeexport>
